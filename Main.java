@@ -7,17 +7,17 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
 
-        System.out.println("ФИО сотрудника - " + fullName);
+        System.out.println("Ф.И.О. сотрудника - " + fullName + ".");
 
 
         String fullNameOne = "Ivanov Ivan Ivanovich";
-        System.out.println("Данные ФИО сотрудника " + fullNameOne.toUpperCase());
+        System.out.println("Данные Ф.И.О. сотрудника для заполнения отчёта - " + fullNameOne.toUpperCase() + ".");
 
 
         String fullNameTwo = "Иванов Семён Семёнович";
         fullNameTwo = fullNameTwo.replace("ё", "е");
 
-        System.out.println("Данные ФИО сотрудника — " + fullNameTwo);
+        System.out.println("Данные Ф.И.О. сотрудника — " + fullNameTwo + ".");
 
     }
 
